@@ -54,7 +54,7 @@
 					<li><a href="#services">About</a></li>
 					<li><a href="#team">Projects</a></li>
 					<li><a href="#pricing">#GiveBackToSociety</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Resume</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue" onclick="openPdf(event, 'resume/Varun_Dani.pdf', '');">Resume</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -205,6 +205,15 @@
 
 <script type="text/javascript">
 
+ function openPdf(e, path, redirect) {
+        e = e || window.event; // for IE
+        e.preventDefault(); 
+        window.open(path, 'Resume-Varun Dani');
+        window.location = redirect;
+    }
+
+	
+	
 setTimeout(function() { $('header').height(500); }, 1000);
 
 
