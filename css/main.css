@@ -183,7 +183,7 @@ nav.navbar-fixed-top {
 }
 
 nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
-	color: #bbb;
+	color: #000;
 }
 
 .icon-bar {
