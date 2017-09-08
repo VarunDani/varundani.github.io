@@ -8,7 +8,7 @@
 	
 	<title>Varun Dani</title>
 	<meta name="description" content="java Programmer, Open Source enthusiast," />
-	<meta name="keywords" content="varun,varun dani, Varun Dani, Dani, java,Programmer, Open source" />
+	<meta name="keywords" content="varun dani, varun, Varun Dani, Dani, varundani, java, Programmer, Open source, Atlanta, georgia, Georgia Institute of Technology, gatech, Buzz, Texas,University of Texas at Dallas,University,university,dallas, texas" />
 	<meta name="author" content="Varun Dani" />
 	
 	
@@ -29,7 +29,21 @@
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/card.css">
+	<link rel="stylesheet" type="text/css" href="css/gridstack.css"/>
 	
+ <!-- <style type="text/css">
+        .grid-stack {
+            background: lightgoldenrodyellow;
+			
+        }
+
+        .grid-stack-item-content {
+            color: #2c3e50;
+            text-align: center;
+            background-color: #18bc9c;
+        }
+    </style>
+-->	
 </head>
 
 <body>
@@ -54,7 +68,10 @@
 					<li><a href="#services">About</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#pricing">#GiveBackToSociety</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue" onclick="openPdf(event, 'resume/Varun_Dani.pdf', '');">Resume</a></li>
+					
+					<!-- onclick="openPdf(event, 'resume/Varun_Dani.pdf', '');" -->
+					<!-- <li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue" >Resume</a></li> -->
+					<li><a href="#" onclick="openPdf(event, 'resume/Varun_Dani.pdf', '');" class="btn btn-blue" >Resume</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -77,72 +94,60 @@
 			</div>
 		</div>
 	</header>
-	<section>
-		
+	
+	<section >	
 		<div class="container">
 			<div class="row intro-tables">
 				<div class="col-md-12">
-					
-					
 					<div class="team text-center z-depth-5" >
-						
 						<img src="img/team/team1.jpg" alt="Team Image" class=" avatar z-depth-2">
-						
-						
-<!-- Nav tabs -->
-<ul class="nav nav-tabs md-pills pills-ins" role="tablist">
-    <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#panel11" role="tab"><i class="fa fa-user"></i> Profile</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#panel12" role="tab"><i class="fa fa-heart"></i> Follow</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#panel13" role="tab"><i class="fa fa-envelope"></i> Contact</a>
-    </li>
-</ul>
+										
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs md-pills pills-ins" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href="#panel11" role="tab"><i class="fa fa-user"></i> Profile</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#panel12" role="tab"><i class="fa fa-heart"></i> Follow</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#panel13" role="tab"><i class="fa fa-envelope"></i> Contact</a>
+							</li>
+						</ul>
 
-<!-- Tab panels -->
-<div class="tab-content">
+						<!-- Tab panels -->
+						<div class="tab-content">
+							
+							<!--Panel 1-->
+							<div class="tab-pane fade in active" id="panel11" role="tabpanel">
+								<br><br><br><br><br><br>
+								<p>Tab 1 </p>
+							</div>
+							<!--/.Panel 1-->
 
-    <!--Panel 1-->
-    <div class="tab-pane fade in active" id="panel11" role="tabpanel">
-        <br>
+							<!--Panel 2-->
+							<div class="tab-pane fade" id="panel12" role="tabpanel">
+								<br><br><br><br><br><br>
+								<p>Tab 2 </p>
+								<p>Tab 2 Description</p>
+							</div>
+							<!--/.Panel 2-->
 
-        <p>Tab 1 </p>
+							<!--Panel 3-->
+							<div class="tab-pane fade" id="panel13" role="tabpanel">
+								<br><br><br><br><br><br>
+								<p>Tab 3</p>
+							</div>
+							<!--/.Panel 3-->
 
-    </div>
-    <!--/.Panel 1-->
+							<!--Panel 4-->
+							<div class="tab-pane fade" id="panel14" role="tabpanel">
+								<br><br><br><br><br><br>
+								<p>Tab 4 </p>
+							</div>
+							<!--/.Panel 4-->
 
-    <!--Panel 2-->
-    <div class="tab-pane fade" id="panel12" role="tabpanel">
-        <br>
-
-        <p>Tab 2 </p>
-        <p>Tab 2 Description</p>
-
-    </div>
-    <!--/.Panel 2-->
-
-    <!--Panel 3-->
-    <div class="tab-pane fade" id="panel13" role="tabpanel">
-        <br>
-
-        <p>Tab 3</p>
-
-    </div>
-    <!--/.Panel 3-->
-
-    <!--Panel 4-->
-    <div class="tab-pane fade" id="panel14" role="tabpanel">
-        <br>
-
-        <p>Tab 4 </p>
-
-    </div>
-    <!--/.Panel 4-->
-
-</div>
+						</div>
 
 
 					</div>
@@ -155,14 +160,50 @@
 
 	</section>
 	
-	
-	
-	<section id="services" class="section section-padded">
+	<section id="services" class="section ">
+	<br/><br/>
 		<div class="container">
-			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			<div class="grid-stack">
+				<div class="grid-stack-item "
+					data-gs-x="0" data-gs-y="0"
+					data-gs-width="4" data-gs-height="3">
+						<div class="grid-stack-item-content z-depth-2">
+						<div class="ui fluid card fit-content text-align-card" >
+				<div class="image">
+				  <img src="project.png">
+				</div>
+				<div class="content">
+				  <div class="header">Project Heading</div>
+				  <div class="meta">
+					<a>Project Link </a>
+				  </div>
+				  <div class="description">
+					Project Short Desciptions and technologies
+				  </div>
+				  
+				  <button type="button" class="btn-custom btn-primary-custom waves-effect waves-light">Primary</button>
+				  
+				</div>
+				<div class="extra content">
+				  <span class="right floated">
+					Duration 2012-2013
+				  </span>
+				  <span>
+					<i class="fa fa-github"></i>
+					Github
+				  </span>
+				</div>
+			  </div>
+			  </div>
+				</div>
+				<div class="grid-stack-item"
+					data-gs-x="4" data-gs-y="0"
+					data-gs-width="4" data-gs-height="4">
+						<div class="grid-stack-item-content"></div>
+				</div>
+			</div>
 			
 		</div>
-		<div class="cut cut-bottom"></div>
 	</section>
 	
 	
@@ -258,102 +299,8 @@
 			
 		
   
-			  <div class="row">
-
-		<div class="col-md-4 col-sm-4">
-		<div class="ui fluid card" >
-				<div class="image">
-				  <img src="project.png">
-				</div>
-				<div class="content">
-				  <div class="header">Project Heading</div>
-				  <div class="meta">
-					<a>Project Link </a>
-				  </div>
-				  <div class="description">
-					Project Short Desciptions and technologies
-				  </div>
-				</div>
-				<div class="extra content">
-				  <span class="right floated">
-					Duration 2012-2013
-				  </span>
-				  <span>
-					<i class="fa fa-github"></i>
-					Github
-				  </span>
-				</div>
-			  </div>
-			</div>
 			  
-			  <div class="col-md-4 col-sm-4">
-		<div class="ui fluid card" >
-				<div class="image">
-				  <img src="project.png">
-				</div>
-				<div class="content">
-				  <div class="header">Project Heading</div>
-				  <div class="meta">
-					<a>Project Link </a>
-				  </div>
-				  <div class="description">
-					Project Short Desciptions and technologies
-				  </div>
-				</div>
-				<div class="extra content">
-				  <span class="right floated">
-					Duration 2012-2013
-				  </span>
-				  <span>
-					<i class="fa fa-github"></i>
-					Github
-				  </span>
-				</div>
-			  </div>
-			</div>
-			
-			 
-			 
-			   <div class="col-md-4 col-sm-4">
-		<div class="ui fluid card" >
-				<div class="image">
-				  <img src="project.png">
-				</div>
-				<div class="content">
-				  <div class="header">Project Heading</div>
-				  <div class="meta">
-					<a>Project Link </a>
-				  </div>
-				  <div class="description">
-					Project Short Desciptions and technologies
-				  </div>
-				</div>
-				<div class="extra content">
-				  <span class="right floated">
-					Duration 2012-2013
-				  </span>
-				  <span>
-					<i class="fa fa-github"></i>
-					Github
-				  </span>
-				</div>
-			  </div>
-			</div>
-			
-			
-			
-			</div>
-			
-			
-			
-			 
-			
-			
-			
-			
-			
 		</div>
-		<div class="cut cut-bottom"></div>
 		
 	</section>
 	
@@ -364,10 +311,91 @@
 			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			
 		</div>
-		<div class="cut cut-bottom"></div>
 		
 	</section>
 	
+	
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	
+	<div align="right" style="align-items: right;justify-content: right;">
+			  <a class="close-link"> <span class="fa fa-times fa-3x"></span></a>
+	</div>
+		<div class="modal-dialog">
+			<div class="modal-popup">
+		
+				<div class="team text-center z-depth-5" >
+				
+				
+				
+	<!-- In case header Symbol is Needed -->			
+ <!-- <h3 class="card-header primary-color white-text"><br><br></h3> -->
+ 
+  <header class="masthead" style="background-image: url('img/12.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto">
+            <div class="post-heading">
+              <h1>Man must explore, and this is exploration at its greatest</h1>
+              <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+              <span class="meta">Posted by
+                <a href="#">Start Bootstrap</a>
+                on August 24, 2017</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container" style="text-align: justify;">
+        <div class="row">
+          <div class="">
+		  <br>
+           
+
+            <h2 class="section-heading">The Final Frontier</h2>
+
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+
+            <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+
+            <h2 class="section-heading">Reaching for the Stars</h2>
+
+            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+
+			<div style="display: flex;align-items: center;justify-content: center;">
+			  <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
+		   </div>
+		   <div style="display: flex;align-items: center;justify-content: center;">
+			<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+           </div>
+			
+
+            <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+
+            <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+
+            <p>Placeholder text by
+              <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
+              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+	
+	
+	
+	
+	
+			
+			</div>
+		</div>
+	</div>
 	
 	
 	
@@ -383,6 +411,11 @@
 	<script src="js/typewriter.js"></script>
 	<script src="js/jquery.onepagenav.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
+	<script src="js/gridstack.all.js"></script>
+
+	
 </body>
 
 <script type="text/javascript">
@@ -395,7 +428,348 @@
     }
 
 	
-	
+$(function () {
+    var options = {
+	resizable: {
+        handles: 'e, se'
+    }
+    };
+    $('.grid-stack').gridstack(options);
+});
+
+
+;(function(window) {
+    'use strict';
+
+    var Waves = Waves || {};
+    var $$ = document.querySelectorAll.bind(document);
+
+    // Find exact position of element
+    function isWindow(obj) {
+        return obj !== null && obj === obj.window;
+    }
+
+    function getWindow(elem) {
+        return isWindow(elem) ? elem : elem.nodeType === 9 && elem.defaultView;
+    }
+
+    function offset(elem) {
+        var docElem, win,
+            box = {top: 0, left: 0},
+            doc = elem && elem.ownerDocument;
+
+        docElem = doc.documentElement;
+
+        if (typeof elem.getBoundingClientRect !== typeof undefined) {
+            box = elem.getBoundingClientRect();
+        }
+        win = getWindow(doc);
+        return {
+            top: box.top + win.pageYOffset - docElem.clientTop,
+            left: box.left + win.pageXOffset - docElem.clientLeft
+        };
+    }
+
+    function convertStyle(obj) {
+        var style = '';
+
+        for (var a in obj) {
+            if (obj.hasOwnProperty(a)) {
+                style += (a + ':' + obj[a] + ';');
+            }
+        }
+
+        return style;
+    }
+
+    var Effect = {
+
+        // Effect delay
+        duration: 750,
+
+        show: function(e, element) {
+
+            // Disable right click
+            if (e.button === 2) {
+                return false;
+            }
+
+            var el = element || this;
+
+            // Create ripple
+            var ripple = document.createElement('div');
+            ripple.className = 'waves-ripple';
+            el.appendChild(ripple);
+
+            // Get click coordinate and element witdh
+            var pos         = offset(el);
+            var relativeY   = (e.pageY - pos.top);
+            var relativeX   = (e.pageX - pos.left);
+            var scale       = 'scale('+((el.clientWidth / 100) * 10)+')';
+
+            // Support for touch devices
+            if ('touches' in e) {
+              relativeY   = (e.touches[0].pageY - pos.top);
+              relativeX   = (e.touches[0].pageX - pos.left);
+            }
+
+            // Attach data to element
+            ripple.setAttribute('data-hold', Date.now());
+            ripple.setAttribute('data-scale', scale);
+            ripple.setAttribute('data-x', relativeX);
+            ripple.setAttribute('data-y', relativeY);
+
+            // Set ripple position
+            var rippleStyle = {
+                'top': relativeY+'px',
+                'left': relativeX+'px'
+            };
+
+            ripple.className = ripple.className + ' waves-notransition';
+            ripple.setAttribute('style', convertStyle(rippleStyle));
+            ripple.className = ripple.className.replace('waves-notransition', '');
+
+            // Scale the ripple
+            rippleStyle['-webkit-transform'] = scale;
+            rippleStyle['-moz-transform'] = scale;
+            rippleStyle['-ms-transform'] = scale;
+            rippleStyle['-o-transform'] = scale;
+            rippleStyle.transform = scale;
+            rippleStyle.opacity   = '1';
+
+            rippleStyle['-webkit-transition-duration'] = Effect.duration + 'ms';
+            rippleStyle['-moz-transition-duration']    = Effect.duration + 'ms';
+            rippleStyle['-o-transition-duration']      = Effect.duration + 'ms';
+            rippleStyle['transition-duration']         = Effect.duration + 'ms';
+
+            rippleStyle['-webkit-transition-timing-function'] = 'cubic-bezier(0.250, 0.460, 0.450, 0.940)';
+            rippleStyle['-moz-transition-timing-function']    = 'cubic-bezier(0.250, 0.460, 0.450, 0.940)';
+            rippleStyle['-o-transition-timing-function']      = 'cubic-bezier(0.250, 0.460, 0.450, 0.940)';
+            rippleStyle['transition-timing-function']         = 'cubic-bezier(0.250, 0.460, 0.450, 0.940)';
+
+            ripple.setAttribute('style', convertStyle(rippleStyle));
+        },
+
+        hide: function(e) {
+            TouchHandler.touchup(e);
+
+            var el = this;
+            var width = el.clientWidth * 1.4;
+
+            // Get first ripple
+            var ripple = null;
+            var ripples = el.getElementsByClassName('waves-ripple');
+            if (ripples.length > 0) {
+                ripple = ripples[ripples.length - 1];
+            } else {
+                return false;
+            }
+
+            var relativeX   = ripple.getAttribute('data-x');
+            var relativeY   = ripple.getAttribute('data-y');
+            var scale       = ripple.getAttribute('data-scale');
+
+            // Get delay beetween mousedown and mouse leave
+            var diff = Date.now() - Number(ripple.getAttribute('data-hold'));
+            var delay = 350 - diff;
+
+            if (delay < 0) {
+                delay = 0;
+            }
+
+            // Fade out ripple after delay
+            setTimeout(function() {
+                var style = {
+                    'top': relativeY+'px',
+                    'left': relativeX+'px',
+                    'opacity': '0',
+
+                    // Duration
+                    '-webkit-transition-duration': Effect.duration + 'ms',
+                    '-moz-transition-duration': Effect.duration + 'ms',
+                    '-o-transition-duration': Effect.duration + 'ms',
+                    'transition-duration': Effect.duration + 'ms',
+                    '-webkit-transform': scale,
+                    '-moz-transform': scale,
+                    '-ms-transform': scale,
+                    '-o-transform': scale,
+                    'transform': scale,
+                };
+
+                ripple.setAttribute('style', convertStyle(style));
+
+                setTimeout(function() {
+                    try {
+                        el.removeChild(ripple);
+                    } catch(e) {
+                        return false;
+                    }
+                }, Effect.duration);
+            }, delay);
+        },
+
+        // Little hack to make <input> can perform waves effect
+        wrapInput: function(elements) {
+            for (var a = 0; a < elements.length; a++) {
+                var el = elements[a];
+
+                if (el.tagName.toLowerCase() === 'input') {
+                    var parent = el.parentNode;
+
+                    // If input already have parent just pass through
+                    if (parent.tagName.toLowerCase() === 'i' && parent.className.indexOf('waves-effect') !== -1) {
+                        continue;
+                    }
+
+                    // Put element class and style to the specified parent
+                    var wrapper = document.createElement('i');
+                    wrapper.className = el.className + ' waves-input-wrapper';
+
+                    var elementStyle = el.getAttribute('style');
+
+                    if (!elementStyle) {
+                        elementStyle = '';
+                    }
+
+                    wrapper.setAttribute('style', elementStyle);
+
+                    el.className = 'waves-button-input';
+                    el.removeAttribute('style');
+
+                    // Put element as child
+                    parent.replaceChild(wrapper, el);
+                    wrapper.appendChild(el);
+                }
+            }
+        }
+    };
+
+
+    /**
+     * Disable mousedown event for 500ms during and after touch
+     */
+    var TouchHandler = {
+        /* uses an integer rather than bool so there's no issues with
+         * needing to clear timeouts if another touch event occurred
+         * within the 500ms. Cannot mouseup between touchstart and
+         * touchend, nor in the 500ms after touchend. */
+        touches: 0,
+        allowEvent: function(e) {
+            var allow = true;
+
+            if (e.type === 'touchstart') {
+                TouchHandler.touches += 1; //push
+            } else if (e.type === 'touchend' || e.type === 'touchcancel') {
+                setTimeout(function() {
+                    if (TouchHandler.touches > 0) {
+                        TouchHandler.touches -= 1; //pop after 500ms
+                    }
+                }, 500);
+            } else if (e.type === 'mousedown' && TouchHandler.touches > 0) {
+                allow = false;
+            }
+
+            return allow;
+        },
+        touchup: function(e) {
+            TouchHandler.allowEvent(e);
+        }
+    };
+
+
+    /**
+     * Delegated click handler for .waves-effect element.
+     * returns null when .waves-effect element not in "click tree"
+     */
+    function getWavesEffectElement(e) {
+        if (TouchHandler.allowEvent(e) === false) {
+            return null;
+        }
+
+        var element = null;
+        var target = e.target || e.srcElement;
+
+        while (target.parentElement !== null) {
+            if (!(target instanceof SVGElement) && target.className.indexOf('waves-effect') !== -1) {
+                element = target;
+                break;
+            } else if (target.classList.contains('waves-effect')) {
+                element = target;
+                break;
+            }
+            target = target.parentElement;
+        }
+
+        return element;
+    }
+
+    /**
+     * Bubble the click and show effect if .waves-effect elem was found
+     */
+    function showEffect(e) {
+        var element = getWavesEffectElement(e);
+
+        if (element !== null) {
+            Effect.show(e, element);
+
+            if ('ontouchstart' in window) {
+                element.addEventListener('touchend', Effect.hide, false);
+                element.addEventListener('touchcancel', Effect.hide, false);
+            }
+
+            element.addEventListener('mouseup', Effect.hide, false);
+            element.addEventListener('mouseleave', Effect.hide, false);
+        }
+    }
+
+    Waves.displayEffect = function(options) {
+        options = options || {};
+
+        if ('duration' in options) {
+            Effect.duration = options.duration;
+        }
+
+        //Wrap input inside <i> tag
+        Effect.wrapInput($$('.waves-effect'));
+
+        if ('ontouchstart' in window) {
+            document.body.addEventListener('touchstart', showEffect, false);
+        }
+
+        document.body.addEventListener('mousedown', showEffect, false);
+    };
+
+    /**
+     * Attach Waves to an input element (or any element which doesn't
+     * bubble mouseup/mousedown events).
+     *   Intended to be used with dynamically loaded forms/inputs, or
+     * where the user doesn't want a delegated click handler.
+     */
+    Waves.attach = function(element) {
+        //FUTURE: automatically add waves classes and allow users
+        // to specify them with an options param? Eg. light/classic/button
+        if (element.tagName.toLowerCase() === 'input') {
+            Effect.wrapInput([element]);
+            element = element.parentElement;
+        }
+
+        if ('ontouchstart' in window) {
+            element.addEventListener('touchstart', showEffect, false);
+        }
+
+        element.addEventListener('mousedown', showEffect, false);
+    };
+
+    window.Waves = Waves;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        Waves.displayEffect();
+    }, false);
+
+})(window);
+
+
+
 setTimeout(function() { $('header').height(500); }, 1000);
 
 </script>

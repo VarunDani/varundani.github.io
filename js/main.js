@@ -146,9 +146,10 @@ jQuery(function($) {
 		$dialog.css("margin-top", offset);
 	}
 
+	
 	$('.modal').on('show.bs.modal', centerModal);
 
-	$('.modal-popup .close-link').click(function(event){
+	$('.modal .close-link').click(function(event){
 		event.preventDefault();
 		$('#modal1').modal('hide');
 	});
