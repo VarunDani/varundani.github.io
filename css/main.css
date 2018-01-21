@@ -546,7 +546,11 @@ section {
 	margin: 50px 0;
 }
 
-
+.team .icons {
+	position: relative;
+	text-align: left !important;
+	margin: 25px 25px;
+}
 
 footer {
 	padding: 140px 0 40px;
@@ -1089,4 +1093,7 @@ footer {
 
 .waves-effect.waves-light .waves-ripple {
   background-color: rgba(255, 255, 255, 0.45);
+}
+.varun-title-type {
+ font-family: 'Inconsolata', monospace;
 }
