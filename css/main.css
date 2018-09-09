@@ -324,11 +324,7 @@ section {
 	background-image: url('../img/table-1.jpg');
 }
 
-.intro-table-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/achieve/a1.png');
-}
+
 
 .intro-table-hover h4 {
 	-webkit-transform: translateY(170px);
@@ -337,82 +333,7 @@ section {
 	transition: transform 0.3s;
 }
 
-.intro-table-hover:hover {
-	background-image: url('../img/achieve/a1_h.png');
-	background-position: 50% 50%;
 
-}
-
-/* A2 Table  - START*/
-.intro-table-a2-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/achieve/a2.png');
-}
-
-.intro-table-a2-hover:hover {
-	background-image: url('../img/achieve/a2_h.png');
-	background-position: 50% 50%;
-
-}
-/* A2 Table  - END*/
-
-/* A3 Table  - START*/
-.intro-table-a3-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/achieve/a3.png');
-}
-
-.intro-table-a3-hover:hover {
-	background-image: url('../img/achieve/a3_h.png');
-	background-position: 50% 50%;
-
-}
-/* A3 Table  - END*/
-
-
-/* A4 Table  - START*/
-.intro-table-a4-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/achieve/a4.png');
-}
-
-.intro-table-a4-hover:hover {
-	background-image: url('../img/achieve/a4_h.png');
-	background-position: 50% 50%;
-
-}
-/* A4Table  - END*/
-
-/* A5 Table  - START*/
-.intro-table-a5-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/achieve/a5.png');
-}
-
-.intro-table-a5-hover:hover {
-	background-image: url('../img/achieve/a5_h.png');
-	background-position: 50% 50%;
-
-}
-/* A5Table  - END*/
-
-/* A6 Table  - START*/
-.intro-table-a6-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/achieve/a6.png');
-}
-
-.intro-table-a6-hover:hover {
-	background-image: url('../img/achieve/a6_h.png');
-	background-position: 50% 50%;
-
-}
-/* A6 Table  - END*/
 
 
 .intro-table-third {

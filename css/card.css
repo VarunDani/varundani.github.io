@@ -55,7 +55,7 @@
   margin-top: 0em;
 }
 .ui.card:last-child {
-  margin-bottom: 0em;
+  margin-top: 1em;
 }
 
 /*--------------
